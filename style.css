@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+    background-color: #fc5296;
+background-image: linear-gradient(315deg, #fc5296 0%, #f67062 74%); 
+
+}
+
+:root{
+    --primary-color: skyblue;
+    --off-white: #E5E7EB;
+    --dark-gray: #6B7280;
+}
+
+hr{
+    margin: 1rem 1rem;
+}
+
+nav{
+
+    display: block;
+    background-color: #d4418e;
+background-image: linear-gradient(315deg, #d4418e 0%, #0652c5 74%);
+}
+    
+.navigation .nav-brand{
+    padding: 0rem 1rem;
+}
+
+.center{
+    max-width: fit-content;
+    margin: auto;
+    font-size: 25px;
+}
+
+.list-inline{
+   display: inline;
+   padding: 1rem 0rem;
+
+}
+
+.neon-text{
+    color: #fff;
+    font-size: bold;
+    font-family: 'Courgette', cursive;
+    font-size: x-large;
+}
+
+#punch-line{
+    font-style: italic;
+    padding-inline-start: 1rem ;
+    color: whitesmoke;
+    font-size: 14px;
+}
+
+span{
+    
+    color: black; 
+    font-weight: bolder;
+}
+
+.navigation{
+background-color: #111;
+color: white;
+
+padding: 0.01rem;
+}
+
+.navigation .nav-tab{
+    text-align: right;
+}
+
+.link{
+    color: white;
+    text-decoration :none;
+    padding: 0.5rem 0.5rem;
+
+
+}
+
+.navigation .link-active{
+    font-weight: bolder;
+}
+
+
+
+
+section{
+    
+    color:#E5E7EB;
+    
+       
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin: 10rem;
+}
+
+
+.img-right{
+    
+    max-width: 50%;
+    border-radius: 50%;
+    float: right;
+    border: 4px double white;
+    
+   }
+   
+.container-right{ 
+      display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: auto;
+    margin: 10rem;
+
+    
+}
+
+
+.img-col{
+
+ max-width: 50%;
+    border-radius: 50%;
+    border: 4px dotted white;
+}
+
+
+   
+
+h1{
+    font-size: 40px;
+  color: whitesmoke;
+  font-family: 'Indie Flower', cursive;
+
+  
+}
+
+
+
+#slider{
+    overflow: hidden;
+}
+
+#slider figure{
+    position: relative;
+    width:500%;
+    margin: 0%;
+    left: 0%;
+    animation: 20s slider infinite;
+}
+
+#slider figure img{
+    width: 20%;
+    float: left;
+    display: block;
+    height: 83vh;
+    border-radius: 2rem;
+
+}
+
+@keyframes slider {
+    0%{
+        left: 0;
+    }
+    20%{
+        left : 0%;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+
+
+.hero .img{
+    max-width: 1100px;
+    display:block;
+    margin:auto;
+    padding: 1.5rem;
+}
+
+.hero .img-heading{
+    padding-right: 2rem;
+    text-align: center;
+    color: white;
+    padding-top: 1rem;
+    font-weight: bold;
+}
+
+.hero .img-heading .heading-inverted{
+    color: purple;
+    font-weight: bolder;
+}
+
+.add-fonts{
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&display=swap');
+
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.containerr{
+    padding: 0.5rem 0.5rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+
+section{
+    display: grid;
+    border-radius: 2rem;
+}
+.section{
+
+    padding: 3rem;
+}
+
+.us{
+    background-color: var(--off-white);
+}
+
+.section h1{
+    text-align: center;
+    color: var(--primary-color);
+
+}
+
+.section h3{
+    margin: 0;
+} 
+
+#id{
+    margin: 0;
+}
+
+.link-second{
+   color: var(--off-white);
+    background-color: #60A5FA;   
+    
+    text-align: center;
+    max-width: 100px;
+    border-top-right-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 2rem;
+        border-top-left-radius: 2rem;
+        margin-top: 1rem;
+        text-align: center;
+        padding: 1rem;
+        text-decoration: none;
+
+}
+
+.space{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-inline-start: 0rem;
+}
+.link-first{
+    color: white;
+    border: 2px double skyblue;
+    max-width: 100px;
+        border-top-right-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 2rem;
+        border-top-left-radius: 2rem;
+        font-weight: bold;
+       text-decoration: none;
+       padding-inline-start: 2rem;
+        margin-top: 2rem;
+        margin-right: 1rem;
+        text-align: center;
+        padding: 1rem;
+        
+    }
+
+    ul{
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1rem;
+        margin-block-end: 1rem;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+    }
+
+
+
+.footer{
+background-color: #111;
+color: white;
+text-align: center;
+display: block;
+border-top-right-radius: 1rem;
+ padding: 2rem;
+ border-bottom-left-radius: 1rem; 
+ background-color: #d4418e;
+background-image: linear-gradient(315deg, #d4418e 0%, #0652c5 74%);
+}
+
+.weight{
+    font-weight: bold;
+    font-size: large;
+   
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+.link-fir{
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    max-width: 100px;
+        border-top-right-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 2rem;
+        border-top-left-radius: 2rem;
+        font-weight: bold;
+        margin: 1rem 1rem 1rem 0rem;
+        padding-top: 0.5;
+        
+    }
+
+    .link-sec{
+
+        background-color: var(--primary-color);
+        color: white;
+        border-top-right-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 2rem;
+        border-top-left-radius: 2rem;
+        display: block;
+        max-width:fit-content;
+        margin: 1rem 1rem 1rem 0rem;
+        padding-top : 0.7rem;
+        padding-bottom: 0.7rem;
+    }
+
+    #left{
+        text-align: left;
+        color: skyblue;
+    }
+
+    .padding{
+
+       
+        padding-inline-start: 0rem;
+    }
+
+    .blog-link{
+        color: white;
+    padding: 0.5rem 0.5rem;
+    display: inline;
+
+    }
+.blog-link:hover{
+    color: red;
+    font-size: 2rem;
+}
+.blog-img{
+   margin: auto;
+   display: block;
+   width: 600px;
+   padding: 0.5rem;
+   border-radius: 0.8rem;
+}
+i{
+    color: white;
+    font-size: 2rem;
+    text-shadow: 1px 2px violet;
+}
+
+.fa:hover{
+    color: violet;
+    
+}
+
